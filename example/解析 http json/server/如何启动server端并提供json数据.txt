@@ -1,0 +1,5 @@
+本地访问
+json-server -w -H localhost jsonData.json
+
+网络访问
+json-server -w -H * jsonData.json

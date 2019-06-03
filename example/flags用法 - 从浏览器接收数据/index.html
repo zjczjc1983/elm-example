@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>flags用法</title>
+<script src="elm.js"></script>
+</head>
+<body>
+<div id="elm"></div>
+<script>
+var app = Elm.Main.init({
+  node: document.getElementById('elm'),
+  flags: "这是通过浏览器发送到elm的字符串"
+})
+</script>
+</body>
+</html>
